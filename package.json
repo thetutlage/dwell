@@ -1,5 +1,5 @@
 {
-  "name": "ponder",
+  "name": "dwell",
   "version": "1.0.0",
   "description": "micro module to inspect contructor injections and get them back as an array.",
   "main": "index.js",

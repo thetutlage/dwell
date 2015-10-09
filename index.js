@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * ponder
+ * dwell
  * Copyright(c) 2015-2015 Harminder Virk
  * MIT Licensed
 */

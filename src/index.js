@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * ponder
+ * dwell
  * Copyright(c) 2015-2015 Harminder Virk
  * MIT Licensed
 */
@@ -10,10 +10,10 @@ const regex = /(constructor|^function)\s*\w*\(([\s\S]*?)\)/
 const replaceRegExp = /[ ,\n\r\t]+/
 
 /**
- * @module ponder
+ * @module dwell
  * @description Parses constructor method to get it's parameter
  */
-let ponder = exports = module.exports = {}
+let dwell = exports = module.exports = {}
 
 /**
  * @function inspect
@@ -22,7 +22,7 @@ let ponder = exports = module.exports = {}
  * @param  {Function} fn
  * @return {Array}
  */
-ponder.inspect = function (fn) {
+dwell.inspect = function (fn) {
   let fnArguments = regex.exec(fn)
 
   /**

@@ -1,11 +1,11 @@
-# Ponder
+# Dwell
 
 Unfortunately Javascript does not have a reflection api to inspect methods to get list of method arguments.
-Ponder will help you in inspecting a method or class contructor to get an array of parameters.
+Dwell will help you in inspecting a method or class contructor to get an array of parameters.
 
 ```javascript
 
-var ponder = require('ponder')
+var dwell = require('dwell')
 
 class Greet {
 
@@ -14,7 +14,7 @@ class Greet {
   }
 }
 
-ponder.inspect(Greet.toString())
+dwell.inspect(Greet.toString())
 // outputs ['foo','bar']
 ```
 
@@ -24,6 +24,6 @@ or for a javascript function
 function HelloWorld(baz) {
   
 }
-ponder.inspect(HelloWorld.toString())
+dwell.inspect(HelloWorld.toString())
 // outputs ['baz']
 ```
